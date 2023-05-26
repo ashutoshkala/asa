@@ -59,3 +59,13 @@ def hamming_decode(data):
 
   # Return the decoded data.
   return data[:k]
+
+
+data = "10101"
+encoded_data = hamming_code(data)
+print(encoded_data)
+# Output: 1010100
+decoded_data = hamming_decode(encoded_data)
+print(decoded_data)
+# Output: 10101
+
